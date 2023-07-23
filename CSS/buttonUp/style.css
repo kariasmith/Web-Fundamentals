@@ -1,0 +1,29 @@
+#search {
+    color: aqua;
+    border: 2px solid aqua;
+    border-radius: 25px;
+    background-color: white;
+    margin: 30px;
+    height: 50px;
+    width: 200px;
+}
+
+#plus {
+    color: white;
+    background-color: lightgreen;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+}
+
+#create {
+    color: white;
+    background-color: blue;
+    margin-left: 30px;
+    height: 60px;
+    width: 250px;
+    border: 2px solid black;
+    box-shadow: 5px 10px black;
+}
