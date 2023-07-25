@@ -1,0 +1,39 @@
+.container{
+    background-color: silver;
+    margin: 0px auto;
+    padding: 20px;
+    border-top: 5px solid red;
+    border-right: 5px solid orange;
+    border-bottom: 5px solid yellow;
+    border-left: 5px solid green;
+}
+
+h1 {
+    color: darkmagenta;
+    text-align: center;
+    text-size-adjust: 50px;
+}
+
+#top-row {
+    background-color: blue;
+}
+
+#top-row, #middle-row, #bottom-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+p {
+    text-align: center;
+    text-size-adjust: 25px;
+}
+
+img {
+    height: 200px;
+}
+
+#middle-row {
+    background-color: purple;
+    justify-content: space-evenly;
+}
