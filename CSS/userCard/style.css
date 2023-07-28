@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+
+.container {
+    margin: 75px 400px;
+    border: 2px solid grey;
+    position: relative;
+}
+
+h1 {
+    background-color: blue;
+    height: 100px;
+}
+
+#circle {
+    height: 75px;
+    position: absolute;
+    top: 60px;
+    margin: 0px 0px 20px 0px;
+}
+
+#name {
+    font-size: 50px;
+    margin: 35px 0px 0px 0px;
+}
+
+#map {
+    height: 20px;
+}
+
+#gear {
+    height: 20px;
+}
+
+p {
+    font-size: 15px;
+}
