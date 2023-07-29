@@ -1,0 +1,138 @@
+* {
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+.top-bar {
+    height: 75px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.top-bar button {
+    color: white;
+    background-color: aqua;
+    /*position: relative;
+    right: -75%; */
+}
+
+.left-box li{
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+}
+
+.left-col, .right-col {
+    display: inline-block;
+    flex-direction: column;
+}
+
+.left-col {
+    margin-left: 500px;
+}
+
+.right-col li {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+.connection-request {
+    border: 5px solid grey;
+    margin-left: 20px;
+    height:120px;
+    width:250px;
+}
+
+.your-connections {
+    border: 5px solid grey;
+    margin-top: 20px;
+    margin-left: 20px;
+    height:230px;
+    width:250px;
+}
+
+.user-box {
+    border: 5px solid grey;
+    margin-top: 20px;
+    height:230px;
+    width:430px;
+}
+
+.user-box h1, .user, .location, .gear {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.title {
+    margin-left: 10px;
+}
+
+.education-box {
+    border: 5px solid grey;
+    margin-top: 20px;
+    
+    height:120px;
+    width:430px;
+}
+
+.education-box p {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.color {
+    background-color: aqua;
+    height: 50px;
+}
+
+.user {
+    height: 45px;
+    position: absolute;
+    top: 110px;
+}
+
+.location, .gear {
+    height: 20px;
+}
+
+h3 {
+    color: white;
+    background-color: dimgray;
+    padding: 10px;
+}
+
+.school {
+    font-size: 18px;
+}
+
+.date {
+    color: grey;
+}
+
+.connection-request img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.your-connections img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.check {
+    margin-left: 20px;
+}
+
+#view {
+    border-top: 2px solid grey;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
