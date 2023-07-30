@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Timeout Input & Change</title>
+    <!-- In our forms the elements that the user can interact with are commonly the input, textarea, select tags 
+        and while we can still use click and hover events with them if we want to know when a user has typed some 
+        text into a field or selected an option we have events that relate to those things happening.-->
+</head>
+<body>
+    <h1>OnInput - Example</h1>
+    <p>Hello, My name is <span id="name"></span></p>
+    <input type="text" name="name" placeholder="Your name here" oninput="setName(this)">
+
+    <h1>OnSelect - Example</h1>
+    <select name="food" id="" onchange="pickFood(this)">
+        <option value="pizza">Pizza</option>
+        <option value="kebabs">Kebabs</option>
+        <option value="sandwich">Sandwich</option>
+        <option value="sushi">Sushi</option>
+    </select>
+    <button onclick="order()">Order food</button>
+
+
+</body>
+</html>
