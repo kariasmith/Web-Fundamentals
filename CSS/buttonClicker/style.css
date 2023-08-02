@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    margin: auto 0;
+    padding-left: 40px;
+}
+
+.dojonary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+    height: 45px;
+    width: 90%;
+    border: 5px solid black;
+    background-color: grey;
+    margin-bottom: 20px;
+}
+
+.dojonary input {
+    border: 2px solid black;
+    height: 30px;
+    width: 35%;
+}
+
+.dojonary button {
+    border: 2px solid black;
+    color: white;
+    background-color: blue;
+    height: 30px;
+    width: 10%;
+}
+
+.page_body {
+    display: flex;
+}
+
+.left-col {
+    display: inline-block;
+    flex-direction: column;
+    width: 60%;
+}
+
+.right-col {
+    width: 33%;
+}
+
+.practitioner, .programmer {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 130px;
+    width: 95%;
+    border: 5px solid black;
+}
+
+.practitioner {
+    display: flex;
+}
+
+.programmer {
+    display: flex;
+}
+
+.prac-right {
+    width: 33%;
+}
+
+.prac-left {
+    display: inline-block;
+    flex-direction: column;
+    width: 60%;
+}
+
+.practitioner button {
+    border: 2px solid black;
+    background-color: rgb(244, 244, 146);
+    height: 40px;
+    width: 25%;
+}
+
+.practitioner p, button {
+    margin-bottom: 10px;
+}
+
+.programmer button {
+    border: 2px solid black;
+    background-color: rgb(244, 244, 146);
+    height: 40px;
+    width: 25%;
+}
+
+.programmer p, button {
+    margin-bottom: 10px;
+}
+
+.add {
+    border: 5px solid black;
+    padding: 20px;
+    height: 80px;
+    margin-left: 40px;
+}
+
+.add button {
+    border: 2px solid black;
+    background-color: green;
+    height: 30px;
+    width: 95%;
+    margin-top: 10px;
+}
