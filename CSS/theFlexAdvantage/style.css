@@ -1,0 +1,28 @@
+/*.container {
+    width: 720px;
+    height: 250px;
+    background-color: silver;
+}
+.col {
+    width: 220px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    display: inline-block;
+}
+*/
+
+.container {
+    width: 720px;
+    height: 250px;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+}
+    
+.col {
+    width: 220px;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+/* other values like flex-start and flex-end */
